@@ -1,13 +1,15 @@
 package MVN.Test;
 
-import junit.framework.Assert;
+import org.testng.Assert;
+import org.testng.annotations.Test;
 
 /**
  * Hello world!
  *
  */
 public class App {
-	public static void main(String[] args) {
+	@Test()
+	public static void main() {
 		System.out.println("Hello World!");
 		System.out.println("Updated .");
 		System.out.println("Third line.");
